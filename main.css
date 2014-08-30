@@ -1,4 +1,45 @@
 body {
-  background: #00ff00 url('gbhmulti3.jpg') no-repeat center top; 
-  background-clip:border-box;
+  background-image: url('gbhmulti3.jpg');
+  background-size: 1350px 1366px;
+  background-repeat: no-repeat;
+  background-color: black ;
+
+}
+
+a.story {
+  position: absolute;
+  top : 970px ;
+  left: 30% ;
+  right: 70% ;
+  color: #FFE680;
+}
+
+a.cast {
+  position: absolute;
+  top : 970px ;
+  left: 50% ;
+  right: 50% ;
+  color: #FFE680;
+}
+
+a.trailer {
+  position: absolute;
+  top : 970px ;
+  left: 70% ;
+  right: 30% ;
+  color: #FFE680;
+}
+
+div{
+  background-color: pink ;
+  position: absolute;
+  top:1050px ;
+  left: 20%;
+  right: 20%;
+}
+
+button {
+  position: absolute;
+  top : 2000px ;
+  color: pink;
 }

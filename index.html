@@ -4,11 +4,62 @@
   <title>Welcome to The Grand Budapest Hotel!</title>
   <link rel="stylesheet" type="text/css" href="normalize.css">
   <link rel="stylesheet" type="text/css" href="main.css">
+ 
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script>
+    $(document).ready(function() {
+
+      $("div").hide();  //隱藏要呼叫的div
+
+
+      $('a#story').click(function() {       //指定呼叫按鈕
+        $("div").hide();
+        $('#storyCon').slideToggle(400);   //顯示隱藏的div
+        return false;
+      });
+      
+      $('a#trailer').click(function() {       //指定呼叫按鈕
+        $("div").hide();
+        $('#trailerCon').show();   //顯示隱藏的div
+        return false;
+      });
+      
+      $('a#cast').click(function() {       //指定呼叫按鈕
+        $("div").hide();
+        $('#castCon').slideToggle(400);    //顯示隱藏的div
+        return false;
+      });
+    });
+    
+  
+  </script>
+  
 </head>
 <body>
 
-<p>gggg
-</p>
+<a id="story" class="story" href="#">Story</a>
+<a id="cast" class="cast" href="#">Cast</a>
+<a id="trailer" class="trailer" href="#">Trailer</a>
+
+<div id="storyCon">
+  <h1>故事大綱</h1>
+  在二戰期間，「布達佩斯大飯店」可是頂港有名聲、下港最出名的大飯店，冠蓋雲集、政商名流都要爭相入住，常常一房難求！
+  但是要住進「布達佩斯大飯店」 門房總管葛斯塔夫一定要打點。
+  長袖善舞又會察言觀色的總管葛斯塔夫卻遇上了一樁麻煩事，他的紅顏知己高齡80好幾的D夫人突然暴斃，
+  並留下大筆遺產給他。這下可引起D夫人的家族不滿，結果黑道來追殺他，還有警察也要逮捕他。還好葛斯塔夫也不是省油的燈，
+  他把年輕新進門房季諾教導的服服貼貼，幫他裡應外合，但是沒有FaceBook的年代，他要怎麼串聯各大飯店幫他度過難關？
+  <br> 
+</div>
+
+<div id="castCon">
+哈哈哈
+</div>
+
+<div id="trailerCon">
+  <iframe width="809" height="395" src="//www.youtube.com/embed/r5IOaIvqwzo?rel=0" frameborder="0" allowfullscreen></iframe>
+</div>
+
+<button>hi</button>
 
 
 </body>
