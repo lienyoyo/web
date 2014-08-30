@@ -38,8 +38,12 @@ div{
   right: 20%;
 }
 
-button {
+
+p {
+  color: white ;
+
   position: absolute;
-  top : 2000px ;
-  color: pink;
+  top: 2000px;
+  bottom: 0;
+  width: 100%;
 }
